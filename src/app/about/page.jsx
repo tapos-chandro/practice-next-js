@@ -1,16 +1,11 @@
-import React from 'react'
+import Image from 'next/image'
+import abutImage from "@/../public/using-laptop.webp"
 
 export default function AboutPage() {
   return (
     <div>
-      <button className="btn btn-neutral">Neutral</button>
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-secondary">Secondary</button>
-      <button className="btn btn-accent">Accent</button>
-      <button className="btn btn-info">Info</button>
-      <button className="btn btn-success">Success</button>
-      <button className="btn btn-warning">Warning</button>
-      <button className="btn btn-error">Error</button>
+      <h1>About Us</h1>
+      <Image src={abutImage} placeholder="blur" alt="This is about image" />
     </div>
   )
 }
