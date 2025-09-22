@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import abutImage from "@/../public/using-laptop.webp"
+import getPostData from '@/lib/getPostData';
 
 
 export const metadata = {
@@ -8,7 +9,11 @@ export const metadata = {
 };
 
 
-export default function AboutPage() {
+export default async function AboutPage() {
+
+  const postData = await getPostData();
+  console.log(postData,'This is post data');
+
   return (
     <div>
       <h1>About Us</h1>
