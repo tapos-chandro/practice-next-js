@@ -1,7 +1,6 @@
-import { Geist, Geist_Mono , Roboto } from "next/font/google";
+import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,6 +29,8 @@ export default function RootLayout({ children }) {
         className={`${roboto.className}`}
       >
         <NavBar />
+
+
         {children}
       </body>
     </html>
