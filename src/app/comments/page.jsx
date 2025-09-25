@@ -9,7 +9,6 @@ export default function Comments() {
 
   const { data, error, isLoading } = useSWR(`https://jsonplaceholder.typicode.com/comments`, fetcher, { suspense: true })
 
-
   return (
     <div className="grid grid-cols-3 gap-4 p-5 max-w-7xl mx-auto">
 

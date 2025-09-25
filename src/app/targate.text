@@ -1,0 +1,7 @@
+Dynamic Pages: Make pages for anything, like /blog/post-1, using [slug].
+
+Organize Files: Use (folder) to group files without changing the web address.
+
+Side-by-Side Content: Show multiple independent sections on one page (Parallel Routes).
+
+Pop-up Pages: Show a page's content as a pop-up or overlay instead of navigating away (Intercepting Routes).
